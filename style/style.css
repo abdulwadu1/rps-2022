@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  background-image: linear-gradient(
+    64.3deg,
+    rgba(254, 122, 152, 0.81) 17.7%,
+    rgba(255, 206, 134, 1) 64.7%,
+    rgba(172, 253, 163, 0.64) 112.1%
+  );
+  color: rgb(78, 52, 13);
+  height: 100vh;
+}
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+}
+.container {
+  min-width: 30rem;
+  width: 45%;
+  margin: 5rem auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  min-height: 30rem;
+}
+.title-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+.main-title {
+  width: 48%;
+  float: left;
+}
+.score {
+  width: 48%;
+  float: right;
+}
+.main-title .title {
+  font-size: 2rem;
+}
+.score .score {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.score .score span {
+  font-weight: 900;
+}
+.weapons-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+.btn-weapon {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  background-color: rgba(254, 122, 152, 0.81);
+  border: 3px slateblue;
+  outline: none;
+  cursor: pointer;
+}
+.btn-weapon img {
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(8, 8, 94));
+}
